@@ -322,12 +322,22 @@ experience.</div>
                 <button class="btn22222">BRANDS</button>
                 <button class="btn2222288888"> PRODUCTS</button>
             </div>
+            <div>
             <div class="itemviewsection_Contentimg">
                 <img src="./assets/audioplayer.png" alt="">
             </div>
             <div class="itemviewsection_Contentimgpara"> 
                 <p>MARTIN AUDIO</p>
             </div>
+            </div>
+             <!-- <div>
+            <div class="itemviewsection_Contentimg">
+                <img src="./assets/audioplayer.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara"> 
+                <p>MARTIN AUDIO</p>
+            </div>
+            </div> -->
 
         </div>
      </div>

@@ -162,7 +162,7 @@
                Our expert AV consultants Would be happy to discuss on your AV requirements and advise on the best solution for your project.
             </div>
             <div class="booking_solutions_buttons">
-                <button class="b_s_contact_btn"><i class="fa-solid fa-phone"></i><a class="number_change_design" href="tel:+91 8448772825">+91 8448772825</a> </button>
+                <button class="b_s_contact_btn"><i class="fa-solid fa-phone"></i><a class="number_change_design" href="tel:+91 88004 02825">+91 88004 02825</a> </button>
                 <button class="b_s_email_btn">E-mail us</button>
             </div>
         </div>

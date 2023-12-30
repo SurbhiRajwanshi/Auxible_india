@@ -47,7 +47,7 @@ document.write(`
             <div class="phone">
                 <img src = "images/phone.png" >
                 <div>
-                <a href="tel:+91 8448772825">+91 8448772825</a>  <br> <a href="tel: +91 98719 92825"> +91 98719 92825</a>
+                <a href="tel:+91 88004 02825">+91 88004 02825</a>  <br> <a href="tel: +91 98719 92825"> +91 98719 92825</a>
                 </div>
             </div>
             <div class="address">

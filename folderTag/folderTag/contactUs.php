@@ -97,7 +97,7 @@
                 </div>
                 <div class="contact-phone">
                     <img src="images/Mask Group 314.png" alt="">
-                    <div class="contact-phone-detail">+91 9871992825 <br> +91 9871722825</div>    
+                    <div class="contact-phone-detail">+91 9871992825 <br> +91 88004 02825</div>    
                 </div>
                 <div class="contact-email">
                     <img src="images/Mask Group 315.png" alt="">

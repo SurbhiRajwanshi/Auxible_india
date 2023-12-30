@@ -4740,9 +4740,12 @@ textarea {
     padding: 10px;
     width: 164px;
     text-align: center;
+    display: block;
+    margin: auto;
 }
 .itemviewsection_Contentimgpara p{
     color: #000;
+    text-align: center;
     font-family: Manrope;
     font-size: 17px;
     font-style: normal;
