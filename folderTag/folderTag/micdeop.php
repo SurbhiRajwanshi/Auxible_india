@@ -247,19 +247,49 @@
         <div class="itemviewsection_Content">
             <h2>Brands & Products we Installed</h2>
             <div class="itemviewsection_group_btn">
-                <button class="btn22222">BRANDS</button>
-                <button class="btn2222288888"> PRODUCTS</button>
+                <button class="btn22222" id="martin32" >BRANDS</button>
+                <button class="btn2222288888" id="martin33"> PRODUCTS</button>
             </div>
+            <div id="martin30">
             <div class="itemviewsection_Contentimg">
                 <img src="./assets/audioplayer.png" alt="">
             </div>
-            <div class="itemviewsection_Contentimgpara"> 
+            <div class="itemviewsection_Contentimgpara" > 
                 <p>MARTIN AUDIO</p>
+            </div>
+            </div>
+             <div id="martin31" class="displaynone8">
+              <DIV>
+            <div class="itemviewsection_Contentimg">
+            <img src="./assets/NEWYEAR4.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p>V10</p>
+            </div>
+          </DIV>
+          <DIV>
+            <div class="itemviewsection_Contentimg">
+                <img src="./assets/NEWYEAR2.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p> X15B</p>
+            </div>
+          </DIV>
+          <DIV>
+            <div class="itemviewsection_Contentimg">
+            <img src="./assets/NEWYEAR3.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p>Blackline X218</p>
+            </div>
+          </DIV>
+            
             </div>
 
         </div>
      </div>
    </div>
+
 
 
 
@@ -276,18 +306,13 @@
    </div>
 
     <!-- fivth section  -->
-    <!-- <div class="videosSection misovideo">
+    <div class="videosSection misovideo">
 
      <p class="heading">Videos</p>
      <p class="red_line"></p>
 
    
-     <video  controls>
-        <source src="./assets/misosexy2video.mp4" type="video/mp4">
-
-     </video>
-
-    </div> -->
+     <iframe width="1060" height="615" class="videowithd"  src="https://www.youtube.com/embed/p3rERj1KWc4?si=CZiF_L1pUpocv37J&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <!-- six section  -->
     <div class="readyProjectSection">
@@ -364,6 +389,27 @@
             clickable: true,
         },
     });
+     let martin32 = document.getElementById('martin32')
+    martin32.addEventListener("click",()=>{
+        document.getElementById('martin30').style.display="block";
+        document.getElementById('martin32').style.backgroundColor="red";
+        document.getElementById('martin32').style.color="white";
+        document.getElementById('martin31').style.display="none ";
+        document.getElementById('martin33').style.backgroundColor="white";
+        document.getElementById('martin33').style.color="black";
+    })
+    let martin33 = document.getElementById('martin33')
+    martin33.addEventListener("click",()=>{
+        document.getElementById('martin31').style.display="flex";
+        
+        document.getElementById('martin30').style.display="none";
+        document.getElementById('martin33').style.backgroundColor="red";
+        document.getElementById('martin33').style.color="white";
+        document.getElementById('martin32').style.backgroundColor="white";
+        document.getElementById('martin32').style.color="black";
+        
+
+    })
     </script>
 </body>
 

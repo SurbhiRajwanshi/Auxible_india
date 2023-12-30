@@ -319,25 +319,44 @@ experience.</div>
         <div class="itemviewsection_Content">
             <h2>Brands & Products we Installed</h2>
             <div class="itemviewsection_group_btn">
-                <button class="btn22222">BRANDS</button>
-                <button class="btn2222288888"> PRODUCTS</button>
+                <button class="btn22222" id="martin3" >BRANDS</button>
+                <button class="btn2222288888" id="martin4"> PRODUCTS</button>
             </div>
-            <div>
+            <div id="martin1">
             <div class="itemviewsection_Contentimg">
                 <img src="./assets/audioplayer.png" alt="">
             </div>
-            <div class="itemviewsection_Contentimgpara"> 
+            <div class="itemviewsection_Contentimgpara" > 
                 <p>MARTIN AUDIO</p>
             </div>
             </div>
-             <!-- <div>
+             <div id="martin2" class="displaynone8">
+              <DIV>
             <div class="itemviewsection_Contentimg">
-                <img src="./assets/audioplayer.png" alt="">
+                <img src="./assets/NEWYEAR1.png" alt="">
             </div>
-            <div class="itemviewsection_Contentimgpara"> 
-                <p>MARTIN AUDIO</p>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p>Blackline X8</p>
             </div>
-            </div> -->
+          </DIV>
+          <DIV>
+            <div class="itemviewsection_Contentimg">
+                <img src="./assets/NEWYEAR2.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p>Blackline X15</p>
+            </div>
+          </DIV>
+          <DIV>
+            <div class="itemviewsection_Contentimg">
+                <img src="./assets/NEWYEAR3.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p>Blackline X218</p>
+            </div>
+          </DIV>
+            
+            </div>
 
         </div>
      </div>
@@ -472,7 +491,29 @@ experience.</div>
             clickable: true,
         },
     });
+    let martin3 = document.getElementById('martin3')
+    martin3.addEventListener("click",()=>{
+        document.getElementById('martin1').style.display="block";
+        document.getElementById('martin3').style.backgroundColor="red";
+        document.getElementById('martin3').style.color="white";
+        document.getElementById('martin2').style.display="none ";
+        document.getElementById('martin4').style.backgroundColor="white";
+        document.getElementById('martin4').style.color="black";
+    })
+    let martin4 = document.getElementById('martin4')
+    martin4.addEventListener("click",()=>{
+        document.getElementById('martin2').style.display="flex";
+        
+        document.getElementById('martin1').style.display="none";
+        document.getElementById('martin4').style.backgroundColor="red";
+        document.getElementById('martin4').style.color="white";
+        document.getElementById('martin3').style.backgroundColor="white";
+        document.getElementById('martin3').style.color="black";
+        
+
+    })
     </script>
+
 </body>
 
 </html>

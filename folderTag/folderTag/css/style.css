@@ -19,6 +19,13 @@ body{
 .hamburger-icon i {
     display: none;
 }
+.displaynone8{
+    display: none;
+    flex-wrap: wrap;
+    gap: 12px;
+    text-align: center;
+    justify-content: center;
+}
 
 .cross-icon {
     display: none;

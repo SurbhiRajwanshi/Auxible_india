@@ -247,14 +247,36 @@
         <div class="itemviewsection_Content">
             <h2>Brands & Products we Installed</h2>
             <div class="itemviewsection_group_btn">
-                <button class="btn22222">BRANDS</button>
-                <button class="btn2222288888"> PRODUCTS</button>
+                <button class="btn22222" id="martin9" >BRANDS</button>
+                <button class="btn2222288888" id="martin10"> PRODUCTS</button>
             </div>
+            <div id="martin11">
             <div class="itemviewsection_Contentimg">
                 <img src="./assets/audioplayer.png" alt="">
             </div>
-            <div class="itemviewsection_Contentimgpara"> 
+            <div class="itemviewsection_Contentimgpara" > 
                 <p>MARTIN AUDIO</p>
+            </div>
+            </div>
+             <div id="martin12" class="displaynone8">
+              <DIV>
+            <div class="itemviewsection_Contentimg">
+                <img src="./assets/NEWYEAR1.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p>Blackline X12</p>
+            </div>
+          </DIV>
+         
+          <DIV>
+            <div class="itemviewsection_Contentimg">
+                <img src="./assets/NEWYEAR3.png" alt="">
+            </div>
+            <div class="itemviewsection_Contentimgpara" > 
+                <p>Blackline X218</p>
+            </div>
+          </DIV>
+            
             </div>
 
         </div>
@@ -365,6 +387,27 @@
             clickable: true,
         },
     });
+    let martin9 = document.getElementById('martin9')
+    martin9.addEventListener("click",()=>{
+        document.getElementById('martin11').style.display="block";
+        document.getElementById('martin9').style.backgroundColor="red";
+        document.getElementById('martin9').style.color="white";
+        document.getElementById('martin12').style.display="none ";
+        document.getElementById('martin10').style.backgroundColor="white";
+        document.getElementById('martin10').style.color="black";
+    })
+    let martin10 = document.getElementById('martin10')
+    martin10.addEventListener("click",()=>{
+        document.getElementById('martin12').style.display="flex";
+        
+        document.getElementById('martin11').style.display="none";
+        document.getElementById('martin10').style.backgroundColor="red";
+        document.getElementById('martin10').style.color="white";
+        document.getElementById('martin9').style.backgroundColor="white";
+        document.getElementById('martin9').style.color="black";
+        
+
+    })
     </script>
 </body>
 
